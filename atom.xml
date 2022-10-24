@@ -133,9 +133,9 @@
     <category term="Linux" scheme="https://cpen.top/blog/categories/Linux/"/>
     
     
-    <category term="Linux" scheme="https://cpen.top/blog/tags/Linux/"/>
-    
     <category term="Nginx" scheme="https://cpen.top/blog/tags/Nginx/"/>
+    
+    <category term="Linux" scheme="https://cpen.top/blog/tags/Linux/"/>
     
   </entry>
   
@@ -271,11 +271,11 @@
     <category term="Error" scheme="https://cpen.top/blog/categories/Error/"/>
     
     
-    <category term="Troubleshooting" scheme="https://cpen.top/blog/tags/Troubleshooting/"/>
+    <category term="Error" scheme="https://cpen.top/blog/tags/Error/"/>
     
     <category term="Nginx" scheme="https://cpen.top/blog/tags/Nginx/"/>
     
-    <category term="Error" scheme="https://cpen.top/blog/tags/Error/"/>
+    <category term="Troubleshooting" scheme="https://cpen.top/blog/tags/Troubleshooting/"/>
     
   </entry>
   
