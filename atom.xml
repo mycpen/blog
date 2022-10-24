@@ -85,9 +85,9 @@
     
     <category term="Shell" scheme="https://cpen.top/blog/tags/Shell/"/>
     
-    <category term="sed" scheme="https://cpen.top/blog/tags/sed/"/>
-    
     <category term="awk" scheme="https://cpen.top/blog/tags/awk/"/>
+    
+    <category term="sed" scheme="https://cpen.top/blog/tags/sed/"/>
     
   </entry>
   
