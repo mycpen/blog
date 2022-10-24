@@ -1,0 +1,1 @@
+function percent(){document.getElementById("page-name").innerText=document.title.split(" | Mycpen")[0]}window.onscroll=percent;
