@@ -4,6 +4,89 @@
   
     
     <entry>
+      <title>06_Hexo-elemecdn加速Butterfly第三方js</title>
+      <link href="/blog/posts/9b5a2768.html"/>
+      <url>/blog/posts/9b5a2768.html</url>
+      
+        <content type="html"><![CDATA[<p>摘要：Element<span id="more"></span></p><hr><h1 id="前言">前言</h1><p>博客异常加载，f12发现 <a href="https://unpkg.com/swiper/swiper-bundle.min.js">https://unpkg.com/swiper/swiper-bundle.min.js</a> （主因）和 <a href="https://unpkg.com/@fancyapps/ui/dist/fancybox.umd.js">https://unpkg.com/@fancyapps/ui/dist/fancybox.umd.js</a> 报 520（520，当源站服务器向 <a href="https://baike.baidu.com/item/CDN/420951?fromModule=lemma_inlink">CDN</a> 返回空白、未知或意外响应时，会发生 520 错误），日常都返的 200</p><p>基于此有了换 cdn 的想法。<a href="https://butterfly.js.org/posts/ceeb73f/#CDN">butterfly 官方教程</a> 介绍了 local/jsdelivr/unpkg/cdnjs/custom 这些选择，都不是想要的，看到别人用的 Element cdn，学习一下</p><h1 id="步骤">步骤</h1><p>参考文章：<a href="https://butterfly.js.org/posts/ceeb73f/#CDN">butterfly官方教程#CDN</a>、<a href="https://anzhiy.cn/posts/fe76.html">安知鱼 - 可用cdn整理</a>、<a href="https://blog.zhheo.com/p/790087d9.html#%E9%93%BE%E6%8E%A5">张洪 Heo - Butterfly CDN链接更改指南</a></p><blockquote><p><strong>修改源码</strong></p><ol><li><p>修改 themes/butterfly/scripts/events/cdn.js，新增 elemecdn 字段</p><blockquote><img src="https://image.cpen.top/image/image-20221028222132106.png" alt="image-20221028222132106" style="zoom: 67%;" /><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">elemecdn</span>: <span class="string">`https://npm.elemecdn.com/<span class="subst">$&#123;name&#125;</span><span class="subst">$&#123;verType&#125;</span>/<span class="subst">$&#123;file&#125;</span>`</span>,</span><br></pre></td></tr></table></figure></blockquote></li><li><p>修改 _config.butterfly.yml，CDN.third_party_provider</p><blockquote><img src="https://image.cpen.top/image/image-20221029143047143.png" alt="image-20221029143047143" style="zoom: 67%;" />f12 看了下 网络，替换后没异常<img src="https://image.cpen.top/image/image-20221028223148954.png" alt="image-20221028223148954" style="zoom:50%;" /></blockquote></li><li><p>根据 <a href="https://blog.zhheo.com/p/790087d9.html#%E9%93%BE%E6%8E%A5">张洪 Heo - Butterfly CDN链接更改指南</a> 按需替换 cdn链接（需注意变量名，比如butterfly v4.4.0 fontawesome 写成 fontawesomeV6 似乎才会生效）</p><blockquote><img src="https://image.cpen.top/image/image-20221028223928594.png" alt="image-20221028223928594" style="zoom:50%;" /><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">CDN:</span></span><br><span class="line">  <span class="attr">option:</span></span><br><span class="line">    <span class="comment"># 张洪Heo   https://blog.zhheo.com/p/790087d9.html</span></span><br><span class="line">    <span class="comment"># algolia_js: https://cdn1.tianli0.top/npm/js-heo@1.0.11/algolia/algolia.js</span></span><br><span class="line">    <span class="comment"># algolia_search: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/instantsearch.js/2.10.5/instantsearch.min.js</span></span><br><span class="line">    <span class="comment"># algolia_search_css: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/instantsearch.js/2.10.5/instantsearch.min.css</span></span><br><span class="line">    <span class="attr">jquery:</span> <span class="string">https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/3.6.0/jquery.min.js</span></span><br><span class="line">    <span class="attr">pjax:</span> <span class="string">https://lib.baomitu.com/pjax/0.2.8/pjax.min.js</span></span><br><span class="line">    <span class="attr">sharejs:</span> <span class="string">https://lib.baomitu.com/social-share.js/1.0.16/js/social-share.min.js</span></span><br><span class="line">    <span class="attr">sharejs_css:</span> <span class="string">https://lib.baomitu.com/social-share.js/1.0.16/css/share.min.css</span></span><br><span class="line">    <span class="attr">gitalk:</span> <span class="string">https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/gitalk/1.7.2/gitalk.min.js</span></span><br><span class="line">    <span class="attr">gitalk_css:</span> <span class="string">https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/gitalk/1.7.2/gitalk.min.css</span></span><br><span class="line">    <span class="attr">valine:</span> <span class="string">https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/valine/1.4.16/Valine.min.js</span></span><br><span class="line">    <span class="attr">disqusjs:</span> <span class="string">https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/disqusjs/1.3.0/disqus.js</span></span><br><span class="line">    <span class="attr">disqusjs_css:</span> <span class="string">https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/disqusjs/1.3.0/disqusjs.css</span></span><br><span class="line">    <span class="attr">waline:</span> <span class="string">https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/waline/1.5.4/Waline.min.js</span></span><br><span class="line">    <span class="attr">lazyload:</span> <span class="string">https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/vanilla-lazyload/17.3.1/lazyload.iife.min.js</span></span><br><span class="line">    <span class="attr">instantpage:</span> <span class="string">https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/instant.page/5.1.0/instantpage.min.js</span></span><br><span class="line">    <span class="attr">typed:</span> <span class="string">https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/typed.js/2.0.12/typed.min.js</span></span><br><span class="line">    <span class="attr">fancybox_css:</span> <span class="string">https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/fancybox/3.5.7/jquery.fancybox.min.css</span></span><br><span class="line">    <span class="attr">fancybox:</span> <span class="string">https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/fancybox/3.5.7/jquery.fancybox.min.js</span></span><br><span class="line">    <span class="attr">medium_zoom:</span> <span class="string">https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/medium-zoom/1.0.6/medium-zoom.min.js</span></span><br><span class="line">    <span class="attr">snackbar_css:</span> <span class="string">https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/node-snackbar/0.1.16/snackbar.min.css</span></span><br><span class="line">    <span class="attr">snackbar:</span> <span class="string">https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/node-snackbar/0.1.16/snackbar.min.js</span></span><br><span class="line">    <span class="attr">fontawesome:</span> <span class="string">https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.min.css</span></span><br><span class="line">    <span class="attr">fontawesomeV6:</span> <span class="string">https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.min.css</span></span><br><span class="line">    <span class="attr">translate:</span> <span class="string">https://cdn1.tianli0.top/npm/js-heo@1.0.6/translate/tw_cn.js</span></span><br><span class="line">    <span class="attr">aplayer_css:</span> <span class="string">https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.css</span></span><br><span class="line">    <span class="attr">aplayer_js:</span> <span class="string">https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.js</span></span><br><span class="line">    <span class="attr">meting_js:</span> <span class="string">https://cdn1.tianli0.top/npm/js-heo@1.0.12/metingjs/Meting.min.js</span></span><br><span class="line">    <span class="attr">prismjs_js:</span> <span class="string">https://cdn1.tianli0.top/npm/prismjs@1.1.0/prism.js</span></span><br><span class="line">    <span class="attr">prismjs_lineNumber_js:</span> <span class="string">https://cdn1.tianli0.top/npm/prismjs/plugins/line-numbers/prism-line-numbers.min.js</span></span><br><span class="line">    <span class="attr">prismjs_autoloader:</span> <span class="string">https://cdn1.tianli0.top/npm/prismjs/plugins/autoloader/prism-autoloader.min.js</span></span><br><span class="line">    <span class="attr">justifiedGallery_js:</span> <span class="string">https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/justifiedGallery/3.8.1/js/jquery.justifiedGallery.min.js</span></span><br><span class="line">    <span class="attr">justifiedGallery_css:</span> <span class="string">https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/justifiedGallery/3.8.1/css/justifiedGallery.min.css</span></span><br></pre></td></tr></table></figure></blockquote></li></ol></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> Element </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>05_Hexo-twikoo数据从MongoDB导出-js适配pjax</title>
+      <link href="/blog/posts/51a9ee30.html"/>
+      <url>/blog/posts/51a9ee30.html</url>
+      
+        <content type="html"><![CDATA[<p>摘要：twikoo + pjax<span id="more"></span></p><hr><h1 id="一-Twikoo数据从MongoDB导出">一. Twikoo数据从MongoDB导出</h1><h2 id="前言">前言</h2><ol><li><p><strong>参考文章</strong> <a href="https://www.imaegoo.com/2022/twikoo-data-export/">iMaeGoo</a>、<a href="https://zhangshier.vip/posts/41646/#%E6%95%B0%E6%8D%AE%E5%AF%BC%E5%87%BA">张时贰</a></p></li><li><p>记录 <a href="https://twikoo.js.org/">twikoo</a> 由 <a href="https://vercel.com/dashboard">vercel</a> + <a href="https://www.mongodb.com/">mongodb</a> 改为 <a href="https://twikoo.js.org/quick-start.html#%E7%A7%81%E6%9C%89%E9%83%A8%E7%BD%B2">私有部署</a>，数据导出过程</p></li><li><p>Win 下使用 <code>mongoexport</code> 和客户端工具 失败（个人原因，<a href="https://www.imaegoo.com/2022/twikoo-data-export/#%E5%AF%BC%E5%87%BA-Twikoo-%E5%9C%A8-Vercel-%E7%9A%84%E6%95%B0%E6%8D%AE">作者的样例</a> 是成功的），转而用云主机（CentOS 8.2）导出数据</p></li></ol><h2 id="步骤">步骤</h2><p>参考自 <a href="https://www.imaegoo.com/2022/twikoo-data-export/">iMaeGoo</a>、<a href="https://zhangshier.vip/posts/41646/#%E6%95%B0%E6%8D%AE%E5%AF%BC%E5%87%BA">张时贰</a></p><ol><li><p>MongoDB官网下载 <a href="https://www.mongodb.com/try/download/database-tools">Database Tools</a>，解压安装</p></li><li></li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 登录 Vercel 管理后台，点开 Twikoo 的环境，点击上方的 Settings，点击左侧的 Environment Variables，在页面下方找到 MONGODB_URI，点击对应的小眼睛图标，会出现数据库连接地址，点击以复制这串地址；</span></span><br><span class="line"><span class="comment"># 如果地址中包含参数，请先删去参数，参数即 “?” 和 “?” 后面的部分，例如 ?journal=true&amp;w=majority；</span></span><br><span class="line"><span class="comment"># 打开一个命令行窗口，粘贴以下命令：</span></span><br><span class="line">mongoexport --uri 这里换成刚才复制的地址 --collection comment --<span class="built_in">type</span> json --out twikoo-comments.json</span><br><span class="line"></span><br></pre></td></tr></table></figure><hr><h1 id="二-js文件适配-PJAX">二. js文件适配 PJAX</h1><p><strong>参考文章</strong>：</p><p><a href="https://blog.zhheo.com/p/3e567fa7.html">张洪Hexo - pjax无法生效解决办法，butterfly主题维护你的pjax</a></p><p><a href="https://blog.leonus.cn/2022/owo-big.html#post-comment">Leonus - 评论区</a></p><p><a href="https://blog.panghai.top/posts/6e665e82/">心流 - 记录一次因为pjax导致js无法生效以及解决方案</a></p><ol><li><p>butterfly主题下</p><blockquote><p>butterfly的话就使用data-pjax属性来让js文件重载，因为这个是butterfly中写好的规则：</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src=<span class="string">&quot;https://cdn.zhheo.com/JS-Heo/bb/showbb_in_index.js&quot;</span> data-pjax=<span class="string">&quot;&quot;</span> defer=<span class="string">&quot;&quot;</span>&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure></blockquote></li><li><p>在自定义js文件按照下面这样写即可，可以把代码弄成一个函数，然后把函数名放在下面的函数里面</p><blockquote><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">whenDOMReady</span>(<span class="params"></span>) &#123;</span><br><span class="line">  <span class="comment">//此处填写需要执行的代码，如:</span></span><br><span class="line">  <span class="comment">//leonus.demo()</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="title function_">whenDOMReady</span>() <span class="comment">//打开网站之后先执行一次函数</span></span><br><span class="line"><span class="variable language_">document</span>.<span class="title function_">addEventListener</span>(<span class="string">&quot;pjax:complete&quot;</span>, whenDOMReady) <span class="comment">//pjax加载完成之后执行上面函数</span></span><br></pre></td></tr></table></figure></blockquote></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> Twikoo </tag>
+            
+            <tag> PJAX </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>02_Error-记 Win下 Git 忘加入 PATH</title>
+      <link href="/blog/posts/cb0ae693.html"/>
+      <url>/blog/posts/cb0ae693.html</url>
+      
+        <content type="html"><![CDATA[<p>摘要：<code>git bash</code><span id="more"></span></p><hr><h1 id="1-问题描述">1. 问题描述</h1><p>右键 vscode 打开项目，使用 git bash 作为终端 敲命令，有些仓库出现 <code>bash: xxx: command not found</code></p><p>原因：git 下的 bin 目录未加入环境变量，基础命令找不到</p><h1 id="2-加入环境变量">2. 加入环境变量</h1><p>xxx/git/bin 加入 PATH 变量</p><blockquote><p>参考自：<a href="https://blog.csdn.net/u012724595/article/details/114740935">https://blog.csdn.net/u012724595/article/details/114740935</a></p><img src="https://image.cpen.top/image/image-20221026212837312.png" alt="image-20221026212837312" style="zoom:50%;" /><p>后话：xxx/bin/cmd 应该是安装 git 的时候选勾加上的。直接右键 git bash 是能查找到命令的，先前 用 vscode 打开经常用的仓库也能找到命令（为啥没报 not found 不确定原因）</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> Error </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Error </tag>
+            
+            <tag> Git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>02_Other-AList 搭建云盘</title>
       <link href="/blog/posts/6a2caa19.html"/>
       <url>/blog/posts/6a2caa19.html</url>
@@ -630,9 +713,9 @@
             
             <tag> Troubleshooting </tag>
             
-            <tag> Hexo </tag>
-            
             <tag> Git </tag>
+            
+            <tag> Hexo </tag>
             
         </tags>
       
