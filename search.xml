@@ -1214,13 +1214,13 @@
             
             <tag> Django </tag>
             
+            <tag> MTV </tag>
+            
             <tag> HTTP </tag>
             
             <tag> GET </tag>
             
             <tag> POST </tag>
-            
-            <tag> MTV </tag>
             
             <tag> MVC </tag>
             
@@ -1442,9 +1442,9 @@
       
         <tags>
             
-            <tag> Git </tag>
-            
             <tag> Error </tag>
+            
+            <tag> Git </tag>
             
         </tags>
       
@@ -1469,11 +1469,11 @@
       
         <tags>
             
-            <tag> Troubleshooting </tag>
-            
             <tag> Error </tag>
             
             <tag> Nginx </tag>
+            
+            <tag> Troubleshooting </tag>
             
         </tags>
       
@@ -1498,9 +1498,9 @@
       
         <tags>
             
-            <tag> Hexo </tag>
-            
             <tag> Troubleshooting </tag>
+            
+            <tag> Hexo </tag>
             
             <tag> Git </tag>
             
@@ -1552,9 +1552,9 @@
       
         <tags>
             
-            <tag> Hexo </tag>
-            
             <tag> Troubleshooting </tag>
+            
+            <tag> Hexo </tag>
             
         </tags>
       
