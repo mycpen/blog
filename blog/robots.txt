@@ -1,12 +1,10 @@
 User-agent: *
 Allow: /
 Allow: /blog/
-
-
-Disallow: /js/
-Disallow: /css/
-Disallow: /blog/js/
-Disallow: /blog/css/
+Allow: /blog/posts/
+Allow: /blog/archives/
+Allow: /blog/categories/
+Allow: /blog/tags/ 
 
 Sitemap: https://cpen.top/blog/sitemap.xml
 Sitemap: https://cpen.top/blog/baidusitemap.xml
