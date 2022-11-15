@@ -3,11 +3,11 @@
   <title>Mycpen</title>
   
   <subtitle>陈鹏的个人主页</subtitle>
-  <link href="https://cpen.top/blog/atom.xml" rel="self"/>
+  <link href="https://cpen.top/atom.xml" rel="self"/>
   
-  <link href="https://cpen.top/blog/"/>
+  <link href="https://cpen.top/"/>
   <updated>2022-10-11T10:00:01.000Z</updated>
-  <id>https://cpen.top/blog/</id>
+  <id>https://cpen.top/</id>
   
   <author>
     <name>Mycpen</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>30_Linux基础-shell编程-sed</title>
-    <link href="https://cpen.top/blog/posts/4cb758ea.html"/>
-    <id>https://cpen.top/blog/posts/4cb758ea.html</id>
+    <link href="https://cpen.top/posts/4cb758ea.html"/>
+    <id>https://cpen.top/posts/4cb758ea.html</id>
     <published>2022-10-11T10:00:00.000Z</published>
     <updated>2022-10-11T10:00:01.000Z</updated>
     
@@ -30,21 +30,21 @@
     
     
     
-    <category term="Linux" scheme="https://cpen.top/blog/categories/Linux/"/>
+    <category term="Linux" scheme="https://cpen.top/categories/Linux/"/>
     
     
-    <category term="Linux" scheme="https://cpen.top/blog/tags/Linux/"/>
+    <category term="Linux" scheme="https://cpen.top/tags/Linux/"/>
     
-    <category term="Shell" scheme="https://cpen.top/blog/tags/Shell/"/>
+    <category term="Shell" scheme="https://cpen.top/tags/Shell/"/>
     
-    <category term="sed" scheme="https://cpen.top/blog/tags/sed/"/>
+    <category term="sed" scheme="https://cpen.top/tags/sed/"/>
     
   </entry>
   
   <entry>
     <title>29_Linux基础-shell编程-awk-sed</title>
-    <link href="https://cpen.top/blog/posts/3ae7567f.html"/>
-    <id>https://cpen.top/blog/posts/3ae7567f.html</id>
+    <link href="https://cpen.top/posts/3ae7567f.html"/>
+    <id>https://cpen.top/posts/3ae7567f.html</id>
     <published>2022-10-11T09:00:00.000Z</published>
     <updated>2022-10-11T09:00:01.000Z</updated>
     
@@ -55,23 +55,23 @@
     
     
     
-    <category term="Linux" scheme="https://cpen.top/blog/categories/Linux/"/>
+    <category term="Linux" scheme="https://cpen.top/categories/Linux/"/>
     
     
-    <category term="Linux" scheme="https://cpen.top/blog/tags/Linux/"/>
+    <category term="Linux" scheme="https://cpen.top/tags/Linux/"/>
     
-    <category term="Shell" scheme="https://cpen.top/blog/tags/Shell/"/>
+    <category term="Shell" scheme="https://cpen.top/tags/Shell/"/>
     
-    <category term="awk" scheme="https://cpen.top/blog/tags/awk/"/>
+    <category term="awk" scheme="https://cpen.top/tags/awk/"/>
     
-    <category term="sed" scheme="https://cpen.top/blog/tags/sed/"/>
+    <category term="sed" scheme="https://cpen.top/tags/sed/"/>
     
   </entry>
   
   <entry>
     <title>28_Linux基础-shell编程-awk</title>
-    <link href="https://cpen.top/blog/posts/29e2641c.html"/>
-    <id>https://cpen.top/blog/posts/29e2641c.html</id>
+    <link href="https://cpen.top/posts/29e2641c.html"/>
+    <id>https://cpen.top/posts/29e2641c.html</id>
     <published>2022-10-11T08:00:00.000Z</published>
     <updated>2022-10-11T08:00:01.000Z</updated>
     
@@ -82,21 +82,21 @@
     
     
     
-    <category term="Linux" scheme="https://cpen.top/blog/categories/Linux/"/>
+    <category term="Linux" scheme="https://cpen.top/categories/Linux/"/>
     
     
-    <category term="Linux" scheme="https://cpen.top/blog/tags/Linux/"/>
+    <category term="Linux" scheme="https://cpen.top/tags/Linux/"/>
     
-    <category term="Shell" scheme="https://cpen.top/blog/tags/Shell/"/>
+    <category term="Shell" scheme="https://cpen.top/tags/Shell/"/>
     
-    <category term="awk" scheme="https://cpen.top/blog/tags/awk/"/>
+    <category term="awk" scheme="https://cpen.top/tags/awk/"/>
     
   </entry>
   
   <entry>
     <title>27_Linux基础-nginx</title>
-    <link href="https://cpen.top/blog/posts/45562d6f.html"/>
-    <id>https://cpen.top/blog/posts/45562d6f.html</id>
+    <link href="https://cpen.top/posts/45562d6f.html"/>
+    <id>https://cpen.top/posts/45562d6f.html</id>
     <published>2022-10-11T07:30:00.000Z</published>
     <updated>2022-10-11T07:30:01.000Z</updated>
     
@@ -107,19 +107,19 @@
     
     
     
-    <category term="Linux" scheme="https://cpen.top/blog/categories/Linux/"/>
+    <category term="Linux" scheme="https://cpen.top/categories/Linux/"/>
     
     
-    <category term="Nginx" scheme="https://cpen.top/blog/tags/Nginx/"/>
+    <category term="Nginx" scheme="https://cpen.top/tags/Nginx/"/>
     
-    <category term="Linux" scheme="https://cpen.top/blog/tags/Linux/"/>
+    <category term="Linux" scheme="https://cpen.top/tags/Linux/"/>
     
   </entry>
   
   <entry>
     <title>26_Linux基础-项目轮廓-回顾ansible-dns-nfs-nginx</title>
-    <link href="https://cpen.top/blog/posts/dd4b1092.html"/>
-    <id>https://cpen.top/blog/posts/dd4b1092.html</id>
+    <link href="https://cpen.top/posts/dd4b1092.html"/>
+    <id>https://cpen.top/posts/dd4b1092.html</id>
     <published>2022-10-11T07:00:00.000Z</published>
     <updated>2022-10-11T07:00:01.000Z</updated>
     
@@ -130,17 +130,17 @@
     
     
     
-    <category term="Linux" scheme="https://cpen.top/blog/categories/Linux/"/>
+    <category term="Linux" scheme="https://cpen.top/categories/Linux/"/>
     
     
-    <category term="Linux" scheme="https://cpen.top/blog/tags/Linux/"/>
+    <category term="Linux" scheme="https://cpen.top/tags/Linux/"/>
     
   </entry>
   
   <entry>
     <title>25_Linux基础-NFS服务</title>
-    <link href="https://cpen.top/blog/posts/317b0311.html"/>
-    <id>https://cpen.top/blog/posts/317b0311.html</id>
+    <link href="https://cpen.top/posts/317b0311.html"/>
+    <id>https://cpen.top/posts/317b0311.html</id>
     <published>2022-10-11T06:00:00.000Z</published>
     <updated>2022-10-11T06:00:01.000Z</updated>
     
@@ -151,19 +151,19 @@
     
     
     
-    <category term="Linux" scheme="https://cpen.top/blog/categories/Linux/"/>
+    <category term="Linux" scheme="https://cpen.top/categories/Linux/"/>
     
     
-    <category term="Linux" scheme="https://cpen.top/blog/tags/Linux/"/>
+    <category term="Linux" scheme="https://cpen.top/tags/Linux/"/>
     
-    <category term="NFS" scheme="https://cpen.top/blog/tags/NFS/"/>
+    <category term="NFS" scheme="https://cpen.top/tags/NFS/"/>
     
   </entry>
   
   <entry>
     <title>24_Linux基础-DNS服务</title>
-    <link href="https://cpen.top/blog/posts/ecc378ee.html"/>
-    <id>https://cpen.top/blog/posts/ecc378ee.html</id>
+    <link href="https://cpen.top/posts/ecc378ee.html"/>
+    <id>https://cpen.top/posts/ecc378ee.html</id>
     <published>2022-10-11T05:00:00.000Z</published>
     <updated>2022-10-11T05:00:01.000Z</updated>
     
@@ -174,19 +174,19 @@
     
     
     
-    <category term="Linux" scheme="https://cpen.top/blog/categories/Linux/"/>
+    <category term="Linux" scheme="https://cpen.top/categories/Linux/"/>
     
     
-    <category term="Linux" scheme="https://cpen.top/blog/tags/Linux/"/>
+    <category term="Linux" scheme="https://cpen.top/tags/Linux/"/>
     
-    <category term="DNS" scheme="https://cpen.top/blog/tags/DNS/"/>
+    <category term="DNS" scheme="https://cpen.top/tags/DNS/"/>
     
   </entry>
   
   <entry>
     <title>23_Linux基础-ansible2</title>
-    <link href="https://cpen.top/blog/posts/b0a8892b.html"/>
-    <id>https://cpen.top/blog/posts/b0a8892b.html</id>
+    <link href="https://cpen.top/posts/b0a8892b.html"/>
+    <id>https://cpen.top/posts/b0a8892b.html</id>
     <published>2022-10-11T04:00:00.000Z</published>
     <updated>2022-10-11T04:00:01.000Z</updated>
     
@@ -197,19 +197,19 @@
     
     
     
-    <category term="Linux" scheme="https://cpen.top/blog/categories/Linux/"/>
+    <category term="Linux" scheme="https://cpen.top/categories/Linux/"/>
     
     
-    <category term="Linux" scheme="https://cpen.top/blog/tags/Linux/"/>
+    <category term="Linux" scheme="https://cpen.top/tags/Linux/"/>
     
-    <category term="Ansible" scheme="https://cpen.top/blog/tags/Ansible/"/>
+    <category term="Ansible" scheme="https://cpen.top/tags/Ansible/"/>
     
   </entry>
   
   <entry>
     <title>01_PHP-CentOS8.2 编译安装 PHP8.1.10</title>
-    <link href="https://cpen.top/blog/posts/63259.html"/>
-    <id>https://cpen.top/blog/posts/63259.html</id>
+    <link href="https://cpen.top/posts/63259.html"/>
+    <id>https://cpen.top/posts/63259.html</id>
     <published>2022-09-10T04:00:00.000Z</published>
     <updated>2022-09-18T04:00:01.000Z</updated>
     
@@ -220,19 +220,19 @@
     
     
     
-    <category term="PHP" scheme="https://cpen.top/blog/categories/PHP/"/>
+    <category term="PHP" scheme="https://cpen.top/categories/PHP/"/>
     
     
-    <category term="PHP" scheme="https://cpen.top/blog/tags/PHP/"/>
+    <category term="PHP" scheme="https://cpen.top/tags/PHP/"/>
     
-    <category term="脚本" scheme="https://cpen.top/blog/tags/%E8%84%9A%E6%9C%AC/"/>
+    <category term="脚本" scheme="https://cpen.top/tags/%E8%84%9A%E6%9C%AC/"/>
     
   </entry>
   
   <entry>
     <title>22_Linux基础-ansible1</title>
-    <link href="https://cpen.top/blog/posts/22091.html"/>
-    <id>https://cpen.top/blog/posts/22091.html</id>
+    <link href="https://cpen.top/posts/22091.html"/>
+    <id>https://cpen.top/posts/22091.html</id>
     <published>2022-08-28T13:22:00.000Z</published>
     <updated>2022-08-28T13:22:01.000Z</updated>
     
@@ -243,19 +243,19 @@
     
     
     
-    <category term="Linux" scheme="https://cpen.top/blog/categories/Linux/"/>
+    <category term="Linux" scheme="https://cpen.top/categories/Linux/"/>
     
     
-    <category term="Linux" scheme="https://cpen.top/blog/tags/Linux/"/>
+    <category term="Linux" scheme="https://cpen.top/tags/Linux/"/>
     
-    <category term="Ansible" scheme="https://cpen.top/blog/tags/Ansible/"/>
+    <category term="Ansible" scheme="https://cpen.top/tags/Ansible/"/>
     
   </entry>
   
   <entry>
     <title>21_Linux基础-ssh服务3</title>
-    <link href="https://cpen.top/blog/posts/57744.html"/>
-    <id>https://cpen.top/blog/posts/57744.html</id>
+    <link href="https://cpen.top/posts/57744.html"/>
+    <id>https://cpen.top/posts/57744.html</id>
     <published>2022-08-28T12:21:00.000Z</published>
     <updated>2022-08-28T12:21:01.000Z</updated>
     
@@ -266,19 +266,19 @@
     
     
     
-    <category term="Linux" scheme="https://cpen.top/blog/categories/Linux/"/>
+    <category term="Linux" scheme="https://cpen.top/categories/Linux/"/>
     
     
-    <category term="Linux" scheme="https://cpen.top/blog/tags/Linux/"/>
+    <category term="Linux" scheme="https://cpen.top/tags/Linux/"/>
     
-    <category term="SSH" scheme="https://cpen.top/blog/tags/SSH/"/>
+    <category term="SSH" scheme="https://cpen.top/tags/SSH/"/>
     
   </entry>
   
   <entry>
     <title>20_Linux基础-ssh服务2</title>
-    <link href="https://cpen.top/blog/posts/46092.html"/>
-    <id>https://cpen.top/blog/posts/46092.html</id>
+    <link href="https://cpen.top/posts/46092.html"/>
+    <id>https://cpen.top/posts/46092.html</id>
     <published>2022-08-28T11:20:00.000Z</published>
     <updated>2022-08-28T11:20:01.000Z</updated>
     
@@ -289,19 +289,19 @@
     
     
     
-    <category term="Linux" scheme="https://cpen.top/blog/categories/Linux/"/>
+    <category term="Linux" scheme="https://cpen.top/categories/Linux/"/>
     
     
-    <category term="Linux" scheme="https://cpen.top/blog/tags/Linux/"/>
+    <category term="Linux" scheme="https://cpen.top/tags/Linux/"/>
     
-    <category term="SSH" scheme="https://cpen.top/blog/tags/SSH/"/>
+    <category term="SSH" scheme="https://cpen.top/tags/SSH/"/>
     
   </entry>
   
   <entry>
     <title>19_Linux基础-ssh服务1</title>
-    <link href="https://cpen.top/blog/posts/33033.html"/>
-    <id>https://cpen.top/blog/posts/33033.html</id>
+    <link href="https://cpen.top/posts/33033.html"/>
+    <id>https://cpen.top/posts/33033.html</id>
     <published>2022-08-28T10:19:00.000Z</published>
     <updated>2022-08-28T10:19:01.000Z</updated>
     
@@ -312,19 +312,19 @@
     
     
     
-    <category term="Linux" scheme="https://cpen.top/blog/categories/Linux/"/>
+    <category term="Linux" scheme="https://cpen.top/categories/Linux/"/>
     
     
-    <category term="Linux" scheme="https://cpen.top/blog/tags/Linux/"/>
+    <category term="Linux" scheme="https://cpen.top/tags/Linux/"/>
     
-    <category term="SSH" scheme="https://cpen.top/blog/tags/SSH/"/>
+    <category term="SSH" scheme="https://cpen.top/tags/SSH/"/>
     
   </entry>
   
   <entry>
     <title>18_Linux基础-用户权限3</title>
-    <link href="https://cpen.top/blog/posts/57976.html"/>
-    <id>https://cpen.top/blog/posts/57976.html</id>
+    <link href="https://cpen.top/posts/57976.html"/>
+    <id>https://cpen.top/posts/57976.html</id>
     <published>2022-08-28T09:18:00.000Z</published>
     <updated>2022-08-28T09:18:01.000Z</updated>
     
@@ -335,19 +335,19 @@
     
     
     
-    <category term="Linux" scheme="https://cpen.top/blog/categories/Linux/"/>
+    <category term="Linux" scheme="https://cpen.top/categories/Linux/"/>
     
     
-    <category term="Linux" scheme="https://cpen.top/blog/tags/Linux/"/>
+    <category term="Linux" scheme="https://cpen.top/tags/Linux/"/>
     
-    <category term="权限" scheme="https://cpen.top/blog/tags/%E6%9D%83%E9%99%90/"/>
+    <category term="权限" scheme="https://cpen.top/tags/%E6%9D%83%E9%99%90/"/>
     
   </entry>
   
   <entry>
     <title>17_Linux基础-用户权限2</title>
-    <link href="https://cpen.top/blog/posts/14777.html"/>
-    <id>https://cpen.top/blog/posts/14777.html</id>
+    <link href="https://cpen.top/posts/14777.html"/>
+    <id>https://cpen.top/posts/14777.html</id>
     <published>2022-08-28T08:17:00.000Z</published>
     <updated>2022-08-28T08:17:01.000Z</updated>
     
@@ -358,19 +358,19 @@
     
     
     
-    <category term="Linux" scheme="https://cpen.top/blog/categories/Linux/"/>
+    <category term="Linux" scheme="https://cpen.top/categories/Linux/"/>
     
     
-    <category term="Linux" scheme="https://cpen.top/blog/tags/Linux/"/>
+    <category term="Linux" scheme="https://cpen.top/tags/Linux/"/>
     
-    <category term="权限" scheme="https://cpen.top/blog/tags/%E6%9D%83%E9%99%90/"/>
+    <category term="权限" scheme="https://cpen.top/tags/%E6%9D%83%E9%99%90/"/>
     
   </entry>
   
   <entry>
     <title>16_Linux基础-文件&amp;目录权限及归属</title>
-    <link href="https://cpen.top/blog/posts/5637.html"/>
-    <id>https://cpen.top/blog/posts/5637.html</id>
+    <link href="https://cpen.top/posts/5637.html"/>
+    <id>https://cpen.top/posts/5637.html</id>
     <published>2022-08-28T07:16:00.000Z</published>
     <updated>2022-08-28T07:16:01.000Z</updated>
     
@@ -381,19 +381,19 @@
     
     
     
-    <category term="Linux" scheme="https://cpen.top/blog/categories/Linux/"/>
+    <category term="Linux" scheme="https://cpen.top/categories/Linux/"/>
     
     
-    <category term="Linux" scheme="https://cpen.top/blog/tags/Linux/"/>
+    <category term="Linux" scheme="https://cpen.top/tags/Linux/"/>
     
-    <category term="权限" scheme="https://cpen.top/blog/tags/%E6%9D%83%E9%99%90/"/>
+    <category term="权限" scheme="https://cpen.top/tags/%E6%9D%83%E9%99%90/"/>
     
   </entry>
   
   <entry>
     <title>15_Linux基础-用户与组2</title>
-    <link href="https://cpen.top/blog/posts/43746.html"/>
-    <id>https://cpen.top/blog/posts/43746.html</id>
+    <link href="https://cpen.top/posts/43746.html"/>
+    <id>https://cpen.top/posts/43746.html</id>
     <published>2022-08-28T06:15:00.000Z</published>
     <updated>2022-08-28T06:15:01.000Z</updated>
     
@@ -404,19 +404,19 @@
     
     
     
-    <category term="Linux" scheme="https://cpen.top/blog/categories/Linux/"/>
+    <category term="Linux" scheme="https://cpen.top/categories/Linux/"/>
     
     
-    <category term="Linux" scheme="https://cpen.top/blog/tags/Linux/"/>
+    <category term="Linux" scheme="https://cpen.top/tags/Linux/"/>
     
-    <category term="用户与组" scheme="https://cpen.top/blog/tags/%E7%94%A8%E6%88%B7%E4%B8%8E%E7%BB%84/"/>
+    <category term="用户与组" scheme="https://cpen.top/tags/%E7%94%A8%E6%88%B7%E4%B8%8E%E7%BB%84/"/>
     
   </entry>
   
   <entry>
     <title>14_Linux基础-用户与组1</title>
-    <link href="https://cpen.top/blog/posts/10588.html"/>
-    <id>https://cpen.top/blog/posts/10588.html</id>
+    <link href="https://cpen.top/posts/10588.html"/>
+    <id>https://cpen.top/posts/10588.html</id>
     <published>2022-08-28T05:14:00.000Z</published>
     <updated>2022-08-28T05:14:01.000Z</updated>
     
@@ -427,19 +427,19 @@
     
     
     
-    <category term="Linux" scheme="https://cpen.top/blog/categories/Linux/"/>
+    <category term="Linux" scheme="https://cpen.top/categories/Linux/"/>
     
     
-    <category term="Linux" scheme="https://cpen.top/blog/tags/Linux/"/>
+    <category term="Linux" scheme="https://cpen.top/tags/Linux/"/>
     
-    <category term="用户与组" scheme="https://cpen.top/blog/tags/%E7%94%A8%E6%88%B7%E4%B8%8E%E7%BB%84/"/>
+    <category term="用户与组" scheme="https://cpen.top/tags/%E7%94%A8%E6%88%B7%E4%B8%8E%E7%BB%84/"/>
     
   </entry>
   
   <entry>
     <title>13_Linux基础-SHELL命令-wc-diff-patch-bc-awk</title>
-    <link href="https://cpen.top/blog/posts/9132.html"/>
-    <id>https://cpen.top/blog/posts/9132.html</id>
+    <link href="https://cpen.top/posts/9132.html"/>
+    <id>https://cpen.top/posts/9132.html</id>
     <published>2022-08-28T04:13:00.000Z</published>
     <updated>2022-08-28T04:13:01.000Z</updated>
     
@@ -450,19 +450,19 @@
     
     
     
-    <category term="Linux" scheme="https://cpen.top/blog/categories/Linux/"/>
+    <category term="Linux" scheme="https://cpen.top/categories/Linux/"/>
     
     
-    <category term="Linux" scheme="https://cpen.top/blog/tags/Linux/"/>
+    <category term="Linux" scheme="https://cpen.top/tags/Linux/"/>
     
-    <category term="Shell" scheme="https://cpen.top/blog/tags/Shell/"/>
+    <category term="Shell" scheme="https://cpen.top/tags/Shell/"/>
     
   </entry>
   
   <entry>
     <title>12_Linux基础-SHELL命令-sort-uniq-cut-grep-正则表达式-通配符</title>
-    <link href="https://cpen.top/blog/posts/61496.html"/>
-    <id>https://cpen.top/blog/posts/61496.html</id>
+    <link href="https://cpen.top/posts/61496.html"/>
+    <id>https://cpen.top/posts/61496.html</id>
     <published>2022-08-28T03:12:00.000Z</published>
     <updated>2022-08-28T03:12:01.000Z</updated>
     
@@ -473,12 +473,12 @@
     
     
     
-    <category term="Linux" scheme="https://cpen.top/blog/categories/Linux/"/>
+    <category term="Linux" scheme="https://cpen.top/categories/Linux/"/>
     
     
-    <category term="Linux" scheme="https://cpen.top/blog/tags/Linux/"/>
+    <category term="Linux" scheme="https://cpen.top/tags/Linux/"/>
     
-    <category term="Shell" scheme="https://cpen.top/blog/tags/Shell/"/>
+    <category term="Shell" scheme="https://cpen.top/tags/Shell/"/>
     
   </entry>
   
