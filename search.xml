@@ -882,11 +882,11 @@
       
         <tags>
             
+            <tag> Twikoo </tag>
+            
             <tag> Other </tag>
             
             <tag> Supervisor </tag>
-            
-            <tag> Twikoo </tag>
             
         </tags>
       
@@ -1214,13 +1214,13 @@
             
             <tag> Django </tag>
             
-            <tag> MTV </tag>
-            
             <tag> HTTP </tag>
             
             <tag> GET </tag>
             
             <tag> POST </tag>
+            
+            <tag> MTV </tag>
             
             <tag> MVC </tag>
             
@@ -1278,9 +1278,9 @@
             
             <tag> Django </tag>
             
-            <tag> MTV </tag>
-            
             <tag> URL </tag>
+            
+            <tag> MTV </tag>
             
         </tags>
       
@@ -1498,9 +1498,9 @@
       
         <tags>
             
-            <tag> Git </tag>
-            
             <tag> Troubleshooting </tag>
+            
+            <tag> Git </tag>
             
             <tag> Hexo </tag>
             
