@@ -16,8 +16,8 @@ if (window.console) {
 
 */
   };
-  console.log(string.makeMulti());
-  console.log("欢迎访问 %cMycpenの学习笔记", "color:#5ca1ff;font-weight:bold");
+  // console.log(string.makeMulti());
+  console.log("\n欢迎访问 %cMycpenの学习笔记\n\n███╗   ███╗██╗   ██╗ ██████╗██████╗ ███████╗███╗   ██╗\n████╗ ████║╚██╗ ██╔╝██╔════╝██╔══██╗██╔════╝████╗  ██║\n██╔████╔██║ ╚████╔╝ ██║     ██████╔╝█████╗  ██╔██╗ ██║\n██║╚██╔╝██║  ╚██╔╝  ██║     ██╔═══╝ ██╔══╝  ██║╚██╗██║\n██║ ╚═╝ ██║   ██║   ╚██████╗██║     ███████╗██║ ╚████║\n╚═╝     ╚═╝   ╚═╝    ╚═════╝╚═╝     ╚══════╝╚═╝  ╚═══╝\n", "color:#5ca1ff;font-weight:bold");
 }
 
 
