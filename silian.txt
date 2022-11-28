@@ -32,3 +32,11 @@ https://cpen.top/blog/posts/b0a8892b.html
 https://cpen.top/blog/posts/3ae7567f.html
 https://cpen.top/blog/posts/4cb758ea.html
 https://cpen.top/blog/posts/dd4b1092.html
+https://cpen.top/blog/stars
+https://diary.cpen.top/blog/about
+https://diary.cpen.top/blog/comment/
+https://diary.cpen.top/blog/video-bak
+https://diary.cpen.top/blog/cc/
+https://blog.cpen.top/20220828/Linux_%E5%9F%BA%E7%A1%80/13_Linux%E5%9F%BA%E7%A1%80-SHELL%E5%91%BD%E4%BB%A4-wc-diff-patch-bc-awk.html
+https://diary.cpen.top/blog/charts
+https://cpen.top/blog/posts/cb0ae693.html
