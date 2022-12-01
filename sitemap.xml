@@ -920,13 +920,6 @@
   </url>
   
   <url>
-    <loc>https://cpen.top/tags/Git/</loc>
-    <lastmod>2022-12-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://cpen.top/tags/Nginx/</loc>
     <lastmod>2022-12-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -935,6 +928,13 @@
   
   <url>
     <loc>https://cpen.top/tags/Troubleshooting/</loc>
+    <lastmod>2022-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://cpen.top/tags/Git/</loc>
     <lastmod>2022-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1018,14 +1018,14 @@
   </url>
   
   <url>
-    <loc>https://cpen.top/tags/Vim/</loc>
+    <loc>https://cpen.top/tags/Shell/</loc>
     <lastmod>2022-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://cpen.top/tags/Shell/</loc>
+    <loc>https://cpen.top/tags/Vim/</loc>
     <lastmod>2022-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1060,14 +1060,14 @@
   </url>
   
   <url>
-    <loc>https://cpen.top/tags/DNS/</loc>
+    <loc>https://cpen.top/tags/NFS/</loc>
     <lastmod>2022-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://cpen.top/tags/NFS/</loc>
+    <loc>https://cpen.top/tags/DNS/</loc>
     <lastmod>2022-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1095,14 +1095,14 @@
   </url>
   
   <url>
-    <loc>https://cpen.top/tags/Supervisor/</loc>
+    <loc>https://cpen.top/tags/AList/</loc>
     <lastmod>2022-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://cpen.top/tags/AList/</loc>
+    <loc>https://cpen.top/tags/Supervisor/</loc>
     <lastmod>2022-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
