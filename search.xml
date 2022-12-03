@@ -882,11 +882,11 @@
       
         <tags>
             
-            <tag> Twikoo </tag>
-            
             <tag> Other </tag>
             
             <tag> Supervisor </tag>
+            
+            <tag> Twikoo </tag>
             
         </tags>
       
@@ -1498,9 +1498,9 @@
       
         <tags>
             
-            <tag> Troubleshooting </tag>
-            
             <tag> Git </tag>
+            
+            <tag> Troubleshooting </tag>
             
             <tag> Hexo </tag>
             
