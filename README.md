@@ -11,11 +11,5 @@
 
 
 ## 二. 托管
-- 云服务器、GitHub、Gitee（不再同步）；
-- 站点：
-  1. [https://cpen.top](https://cpen.top/)
-  2. [https://mycpen.github.io/blog](https://mycpen.github.io/blog)
-  3. [https://mycpen.gitee.io/blog](https://mycpen.gitee.io/blog)（不再同步）
-
-&emsp;&emsp;&emsp;<a href="https://cpen.top/" target="_self"><img src="/img/logo/aliyun.svg" title="云服务器" width="50px" height="50px"></a>&nbsp;<a href="https://mycpen.github.io/blog" target="_self"><img src="/img/logo/github.svg" title="GitHub Pages" width="50px" height="50px"></a>&nbsp;<a href="https://mycpen.gitee.io/blog" target="_self"><img src="/img/logo/gitee.svg" title="Gitee Pages" width="50px" height="50px"></a>
-
+- [Vercel](https://vercel.com/)
+   - 站点：https://cpen.top/
