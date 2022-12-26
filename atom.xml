@@ -177,9 +177,9 @@
     <category term="Error" scheme="https://cpen.top/categories/Error/"/>
     
     
-    <category term="Git" scheme="https://cpen.top/tags/Git/"/>
-    
     <category term="Error" scheme="https://cpen.top/tags/Error/"/>
+    
+    <category term="Git" scheme="https://cpen.top/tags/Git/"/>
     
   </entry>
   
@@ -438,11 +438,11 @@
     <category term="Error" scheme="https://cpen.top/categories/Error/"/>
     
     
-    <category term="Troubleshooting" scheme="https://cpen.top/tags/Troubleshooting/"/>
-    
     <category term="Error" scheme="https://cpen.top/tags/Error/"/>
     
     <category term="Nginx" scheme="https://cpen.top/tags/Nginx/"/>
+    
+    <category term="Troubleshooting" scheme="https://cpen.top/tags/Troubleshooting/"/>
     
   </entry>
   
