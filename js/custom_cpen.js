@@ -1,0 +1,1 @@
+function share(){let n=window.location.origin+window.location.pathname;new ClipboardJS(".share",{text:function(){return"标题："+document.title+"\n链接："+n}}),btf.snackbarShow("复制成功")}
