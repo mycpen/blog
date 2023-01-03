@@ -269,9 +269,9 @@
       
         <tags>
             
-            <tag> Git </tag>
-            
             <tag> Error </tag>
+            
+            <tag> Git </tag>
             
         </tags>
       
@@ -574,11 +574,11 @@
       
         <tags>
             
-            <tag> Troubleshooting </tag>
-            
             <tag> Error </tag>
             
             <tag> Nginx </tag>
+            
+            <tag> Troubleshooting </tag>
             
         </tags>
       
@@ -904,11 +904,11 @@
       
         <tags>
             
-            <tag> Hexo </tag>
-            
             <tag> Troubleshooting </tag>
             
             <tag> Git </tag>
+            
+            <tag> Hexo </tag>
             
         </tags>
       
@@ -958,9 +958,9 @@
       
         <tags>
             
-            <tag> Hexo </tag>
-            
             <tag> Troubleshooting </tag>
+            
+            <tag> Hexo </tag>
             
         </tags>
       
