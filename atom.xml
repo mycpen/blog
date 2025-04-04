@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Mycpen</title>
+  <icon>https://blog.cpen.top/img/favicon.png</icon>
+  <subtitle>Personal Blog</subtitle>
+  <link href="https://blog.cpen.top/atom.xml" rel="self"/>
+  
+  <link href="https://blog.cpen.top/"/>
+  <updated>2023-04-04T05:00:00.000Z</updated>
+  <id>https://blog.cpen.top/</id>
+  
+  <author>
+    <name>Mycpen</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>11_Hexo-GitHub Actions 自动部署博客</title>
+    <link href="https://blog.cpen.top/posts/8b765f7a.html"/>
+    <id>https://blog.cpen.top/posts/8b765f7a.html</id>
+    <published>2023-04-04T04:00:00.000Z</published>
+    <updated>2023-04-04T05:00:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;简单记录，步骤潦草&lt;/p&gt;
+&lt;h2 id=&quot;示例&quot;&gt;示例&lt;a class=&quot;header-anchor&quot; href=&quot;#示例&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;1-gitignore&quot;&gt;1. .gitignore&lt;a class=&quot;header-anchor&quot; href</summary>
+      
+    
+    
+    
+    <category term="Hexo" scheme="https://blog.cpen.top/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.cpen.top/tags/Hexo/"/>
+    
+    <category term="GitHub" scheme="https://blog.cpen.top/tags/GitHub/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>10_Hexo-GitHub Actions 自动刷新多吉云 CDN 缓存</title>
+    <link href="https://blog.cpen.top/posts/6f7759e0.html"/>
+    <id>https://blog.cpen.top/posts/6f7759e0.html</id>
+    <published>2023-04-03T04:00:00.000Z</published>
+    <updated>2023-04-03T05:00:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;前言&lt;a class=&quot;header-anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;之前一直通过 &lt;a href=&quot;https://console.dogecloud.com/cdn/refresh&quot;&gt;多吉云控制台&lt;/a&gt; 手动刷新博客全</summary>
+      
+    
+    
+    
+    <category term="Hexo" scheme="https://blog.cpen.top/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.cpen.top/tags/Hexo/"/>
+    
+    <category term="GitHub" scheme="https://blog.cpen.top/tags/GitHub/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>08_Other-GitHub Actions 定时执行脚本，备份又拍云云存储</title>
+    <link href="https://blog.cpen.top/posts/acb8c062.html"/>
+    <id>https://blog.cpen.top/posts/acb8c062.html</id>
+    <published>2023-04-02T04:00:00.000Z</published>
+    <updated>2023-04-02T05:00:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;前言&lt;a class=&quot;header-anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;使用 GitHub Acitons，定时跑 Python FTP 脚本，达到 &lt;a href=&quot;https://help.upyun.com/knowle</summary>
+      
+    
+    
+    
+    <category term="Other" scheme="https://blog.cpen.top/categories/Other/"/>
+    
+    
+    <category term="GitHub" scheme="https://blog.cpen.top/tags/GitHub/"/>
+    
+    <category term="Other" scheme="https://blog.cpen.top/tags/Other/"/>
+    
+    <category term="Python" scheme="https://blog.cpen.top/tags/Python/"/>
+    
+    <category term="FTP" scheme="https://blog.cpen.top/tags/FTP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>07_Other-文章记录-sshpass</title>
+    <link href="https://blog.cpen.top/posts/cee83196.html"/>
+    <id>https://blog.cpen.top/posts/cee83196.html</id>
+    <published>2023-04-01T04:00:00.000Z</published>
+    <updated>2023-04-01T05:00:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;前言&lt;a class=&quot;header-anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;记录一些小知识点、工具、文章收藏&lt;/p&gt;
+&lt;h2 id=&quot;01-链接收藏&quot;&gt;01. 链接收藏&lt;a class=&quot;header-anchor&quot; href=&quot;</summary>
+      
+    
+    
+    
+    <category term="Other" scheme="https://blog.cpen.top/categories/Other/"/>
+    
+    
+    <category term="Git" scheme="https://blog.cpen.top/tags/Git/"/>
+    
+    <category term="Hexo" scheme="https://blog.cpen.top/tags/Hexo/"/>
+    
+    <category term="SSH" scheme="https://blog.cpen.top/tags/SSH/"/>
+    
+    <category term="Other" scheme="https://blog.cpen.top/tags/Other/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>03_Error-问题记录-winpty-.gitignore</title>
+    <link href="https://blog.cpen.top/posts/fe8dbc73.html"/>
+    <id>https://blog.cpen.top/posts/fe8dbc73.html</id>
+    <published>2023-03-01T04:00:00.000Z</published>
+    <updated>2023-03-01T05:00:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;前言&lt;a class=&quot;header-anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;记录一些遇到的问题&lt;/p&gt;
+&lt;h2 id=&quot;01-Python-中文乱码-Git-Bash&quot;&gt;01. Python 中文乱码 (Git Bash)&lt;a c</summary>
+      
+    
+    
+    
+    <category term="Error" scheme="https://blog.cpen.top/categories/Error/"/>
+    
+    
+    <category term="Error" scheme="https://blog.cpen.top/tags/Error/"/>
+    
+    <category term="Git" scheme="https://blog.cpen.top/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>02_转载-Replit 部署 Memos &amp; Butterfly 基于 Memos 实现清单功能</title>
+    <link href="https://blog.cpen.top/posts/10d5063.html"/>
+    <id>https://blog.cpen.top/posts/10d5063.html</id>
+    <published>2023-02-01T04:00:00.000Z</published>
+    <updated>2023-03-28T05:00:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;2023-06-01-更新&quot;&gt;2023/06/01 更新&lt;a class=&quot;header-anchor&quot; href=&quot;#2023-06-01-更新&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;最近 Replit 的 Repl 出现回档现象，导致最新变更操作丢失，正如 &lt;a hre</summary>
+      
+    
+    
+    
+    <category term="转载" scheme="https://blog.cpen.top/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="Replit" scheme="https://blog.cpen.top/tags/Replit/"/>
+    
+    <category term="转载" scheme="https://blog.cpen.top/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+    <category term="Memos" scheme="https://blog.cpen.top/tags/Memos/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>09_Hexo-Replit 搭建 Uptime Kuma 监控服务</title>
+    <link href="https://blog.cpen.top/posts/27addd89.html"/>
+    <id>https://blog.cpen.top/posts/27addd89.html</id>
+    <published>2023-01-01T04:00:00.000Z</published>
+    <updated>2023-01-01T05:00:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;2023-10-01-更新&quot;&gt;2023/10/01 更新&lt;a class=&quot;header-anchor&quot; href=&quot;#2023-10-01-更新&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Replit 上的 Repl 报错，重新搭建 Uptime Kuma&lt;/p&gt;
+&lt;p&gt;参考</summary>
+      
+    
+    
+    
+    <category term="Hexo" scheme="https://blog.cpen.top/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.cpen.top/tags/Hexo/"/>
+    
+    <category term="Replit" scheme="https://blog.cpen.top/tags/Replit/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>08_Hexo-博客引用 B站鸿蒙字体</title>
+    <link href="https://blog.cpen.top/posts/df249111.html"/>
+    <id>https://blog.cpen.top/posts/df249111.html</id>
+    <published>2022-12-06T04:00:00.000Z</published>
+    <updated>2023-01-03T05:00:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;2022-12-31-更新&quot;&gt;2022/12/31 更新&lt;a class=&quot;header-anchor&quot; href=&quot;#2022-12-31-更新&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;在 &lt;a href=&quot;https://butterfly.zhheo.com/docs/</summary>
+      
+    
+    
+    
+    <category term="Hexo" scheme="https://blog.cpen.top/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.cpen.top/tags/Hexo/"/>
+    
+    <category term="字体" scheme="https://blog.cpen.top/tags/%E5%AD%97%E4%BD%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>07_Hexo-插件整理</title>
+    <link href="https://blog.cpen.top/posts/4c16ee73.html"/>
+    <id>https://blog.cpen.top/posts/4c16ee73.html</id>
+    <published>2022-12-05T04:00:00.000Z</published>
+    <updated>2022-12-05T05:00:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;strong&gt;目录3 为转载内容&lt;/strong&gt;，原文：&lt;a href=&quot;https://blog.justlovesmile.top/posts/86111745.html&quot;&gt;Justlovesmile_Hexo博客 | 插件推荐&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;1-</summary>
+      
+    
+    
+    
+    <category term="Hexo" scheme="https://blog.cpen.top/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.cpen.top/tags/Hexo/"/>
+    
+    <category term="插件" scheme="https://blog.cpen.top/tags/%E6%8F%92%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>06_Other-Windows 图片批量压缩工具 ultra-tinypng</title>
+    <link href="https://blog.cpen.top/posts/b7f58a40.html"/>
+    <id>https://blog.cpen.top/posts/b7f58a40.html</id>
+    <published>2022-12-04T04:00:00.000Z</published>
+    <updated>2022-12-04T05:00:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;2023-07-11-作者更新&quot;&gt;2023-07-11 作者更新&lt;a class=&quot;header-anchor&quot; href=&quot;#2023-07-11-作者更新&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;fix：修复了tinypng官方修改了校验策略导致</summary>
+      
+    
+    
+    
+    <category term="Other" scheme="https://blog.cpen.top/categories/Other/"/>
+    
+    
+    <category term="Other" scheme="https://blog.cpen.top/tags/Other/"/>
+    
+    <category term="TinyPNG" scheme="https://blog.cpen.top/tags/TinyPNG/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>01_转载-图床搭建 Backblaze B2 + Cloudflare CDN</title>
+    <link href="https://blog.cpen.top/posts/16589f92.html"/>
+    <id>https://blog.cpen.top/posts/16589f92.html</id>
+    <published>2022-12-03T04:00:00.000Z</published>
+    <updated>2023-06-16T05:00:00.000Z</updated>
+    
+    
+    <summary type="html">文章转载</summary>
+    
+    
+    
+    <category term="转载" scheme="https://blog.cpen.top/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="转载" scheme="https://blog.cpen.top/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+    <category term="图床" scheme="https://blog.cpen.top/tags/%E5%9B%BE%E5%BA%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>05_Other-使用 Python open 函数批量替换文件内容</title>
+    <link href="https://blog.cpen.top/posts/3ffec809.html"/>
+    <id>https://blog.cpen.top/posts/3ffec809.html</id>
+    <published>2022-12-02T04:00:00.000Z</published>
+    <updated>2023-02-06T05:00:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;2023-02-06-更新&quot;&gt;2023/02/06 更新&lt;a class=&quot;header-anchor&quot; href=&quot;#2023-02-06-更新&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;VSCode 集成了 &lt;code&gt;某路径下的文件批量替换指定内容&lt;/code&gt; 的功能，</summary>
+      
+    
+    
+    
+    <category term="Other" scheme="https://blog.cpen.top/categories/Other/"/>
+    
+    
+    <category term="Other" scheme="https://blog.cpen.top/tags/Other/"/>
+    
+    <category term="Python" scheme="https://blog.cpen.top/tags/Python/"/>
+    
+    <category term="Open" scheme="https://blog.cpen.top/tags/Open/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>04_Other-使用 Python ftplib 模块同步又拍云云存储数据至本地</title>
+    <link href="https://blog.cpen.top/posts/4f5c6419.html"/>
+    <id>https://blog.cpen.top/posts/4f5c6419.html</id>
+    <published>2022-12-01T04:00:00.000Z</published>
+    <updated>2022-12-01T05:00:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;1. 前言&lt;a class=&quot;header-anchor&quot; href=&quot;#1-前言&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;在 &lt;a href=&quot;https://www.jsdelivr.com/&quot;&gt;jsd&lt;/a&gt; 失效之后，博主将图床资源从 github 迁移至</summary>
+      
+    
+    
+    
+    <category term="Other" scheme="https://blog.cpen.top/categories/Other/"/>
+    
+    
+    <category term="Other" scheme="https://blog.cpen.top/tags/Other/"/>
+    
+    <category term="Python" scheme="https://blog.cpen.top/tags/Python/"/>
+    
+    <category term="FTP" scheme="https://blog.cpen.top/tags/FTP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>03_Other-PC端环境记录</title>
+    <link href="https://blog.cpen.top/posts/583c5c34.html"/>
+    <id>https://blog.cpen.top/posts/583c5c34.html</id>
+    <published>2022-11-01T04:00:00.000Z</published>
+    <updated>2023-03-11T05:00:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;前言&lt;a class=&quot;header-anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;记录个人电脑环境&lt;/p&gt;
+&lt;p&gt;更新时间：2023.03.10&lt;/p&gt;
+&lt;h2 id=&quot;Windows&quot;&gt;Windows&lt;a class=&quot;header-</summary>
+      
+    
+    
+    
+    <category term="Other" scheme="https://blog.cpen.top/categories/Other/"/>
+    
+    
+    <category term="Other" scheme="https://blog.cpen.top/tags/Other/"/>
+    
+    <category term="工具" scheme="https://blog.cpen.top/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>06_Hexo-elemecdn 加速 Butterfly 第三方资源</title>
+    <link href="https://blog.cpen.top/posts/9b5a2768.html"/>
+    <id>https://blog.cpen.top/posts/9b5a2768.html</id>
+    <published>2022-10-25T04:00:00.000Z</published>
+    <updated>2023-04-13T05:00:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;2023-01-09-更新&quot;&gt;2023/01/09 更新&lt;a class=&quot;header-anchor&quot; href=&quot;#2023-01-09-更新&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;今天发现 &lt;a href=&quot;https://butterfly.js.org/posts</summary>
+      
+    
+    
+    
+    <category term="Hexo" scheme="https://blog.cpen.top/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.cpen.top/tags/Hexo/"/>
+    
+    <category term="Element" scheme="https://blog.cpen.top/tags/Element/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>05_Hexo-twikoo数据从MongoDB导出-js适配pjax</title>
+    <link href="https://blog.cpen.top/posts/51a9ee30.html"/>
+    <id>https://blog.cpen.top/posts/51a9ee30.html</id>
+    <published>2022-10-24T04:00:00.000Z</published>
+    <updated>2022-10-24T05:00:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;一-Twikoo数据从MongoDB导出&quot;&gt;一. Twikoo数据从MongoDB导出&lt;a class=&quot;header-anchor&quot; href=&quot;#一-Twikoo数据从MongoDB导出&quot;&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h2 id=&quot;前言&quot;&gt;前言&lt;a class=&quot;h</summary>
+      
+    
+    
+    
+    <category term="Hexo" scheme="https://blog.cpen.top/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.cpen.top/tags/Hexo/"/>
+    
+    <category term="Twikoo" scheme="https://blog.cpen.top/tags/Twikoo/"/>
+    
+    <category term="PJAX" scheme="https://blog.cpen.top/tags/PJAX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>04_Hexo-多平台部署-云服务器-GitHub-Gitee</title>
+    <link href="https://blog.cpen.top/posts/38874.html"/>
+    <id>https://blog.cpen.top/posts/38874.html</id>
+    <published>2022-10-23T04:00:00.000Z</published>
+    <updated>2022-10-23T05:00:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;一-开篇词&quot;&gt;一. 开篇词&lt;a class=&quot;header-anchor&quot; href=&quot;#一-开篇词&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;1-1-前言&quot;&gt;1.1 前言&lt;a class=&quot;header-anchor&quot; href=&quot;#1-1-前言&quot;&gt;&lt;/a&gt;&lt;/h3</summary>
+      
+    
+    
+    
+    <category term="Hexo" scheme="https://blog.cpen.top/categories/Hexo/"/>
+    
+    
+    <category term="Troubleshooting" scheme="https://blog.cpen.top/tags/Troubleshooting/"/>
+    
+    <category term="Git" scheme="https://blog.cpen.top/tags/Git/"/>
+    
+    <category term="Hexo" scheme="https://blog.cpen.top/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>03_Hexo-Github Pages 个人博客源文件备份迁移</title>
+    <link href="https://blog.cpen.top/posts/43907.html"/>
+    <id>https://blog.cpen.top/posts/43907.html</id>
+    <published>2022-10-22T04:00:00.000Z</published>
+    <updated>2022-10-22T05:00:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Github-Pages-个人博客源文件&quot;&gt;Github Pages 个人博客源文件&lt;a class=&quot;header-anchor&quot; href=&quot;#Github-Pages-个人博客源文件&quot;&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h2 id=&quot;1-起因&quot;&gt;1. 起因&lt;a clas</summary>
+      
+    
+    
+    
+    <category term="Hexo" scheme="https://blog.cpen.top/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.cpen.top/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>02_Hexo-出错排查-Nunjucks Error</title>
+    <link href="https://blog.cpen.top/posts/5162.html"/>
+    <id>https://blog.cpen.top/posts/5162.html</id>
+    <published>2022-10-21T04:00:00.000Z</published>
+    <updated>2022-10-21T05:00:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Hexo-出错排查&quot;&gt;Hexo 出错排查&lt;a class=&quot;header-anchor&quot; href=&quot;#Hexo-出错排查&quot;&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h2 id=&quot;一-Nunjucks-Error&quot;&gt;一. Nunjucks Error&lt;a class=&quot;header</summary>
+      
+    
+    
+    
+    <category term="Hexo" scheme="https://blog.cpen.top/categories/Hexo/"/>
+    
+    
+    <category term="Troubleshooting" scheme="https://blog.cpen.top/tags/Troubleshooting/"/>
+    
+    <category term="Hexo" scheme="https://blog.cpen.top/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>02_Error-记 Win下 Git 忘加入 PATH</title>
+    <link href="https://blog.cpen.top/posts/cb0ae693.html"/>
+    <id>https://blog.cpen.top/posts/cb0ae693.html</id>
+    <published>2022-10-20T04:00:00.000Z</published>
+    <updated>2022-10-20T05:00:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;1-问题描述&quot;&gt;1. 问题描述&lt;a class=&quot;header-anchor&quot; href=&quot;#1-问题描述&quot;&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;右键 vscode 打开项目，使用 git bash 作为终端 敲命令，有些仓库出现 &lt;code&gt;bash: xxx: comm</summary>
+      
+    
+    
+    
+    <category term="Error" scheme="https://blog.cpen.top/categories/Error/"/>
+    
+    
+    <category term="Error" scheme="https://blog.cpen.top/tags/Error/"/>
+    
+    <category term="Git" scheme="https://blog.cpen.top/tags/Git/"/>
+    
+  </entry>
+  
+</feed>
