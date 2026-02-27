@@ -1,0 +1,21 @@
+{
+  "name": "IsMusic",
+  "short_name": "IsMusic",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "display": "fullscreen",
+  "scope": "/music1/",
+  "start_url": "/music1/",
+  "icons": [
+      {
+        "src": "https://cdn.cbd.int/mycpen-blog@0.0.0-wmuweqbmfe/music1/img/192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "https://cdn.cbd.int/mycpen-blog@0.0.0-wmuweqbmfe/music1/img/512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+}

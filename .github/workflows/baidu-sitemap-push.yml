@@ -1,0 +1,35 @@
+name: Baidu Sitemap Push
+
+on:
+  schedule:
+    - cron: "0 17 * * 5" # 周六 1:00
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Baidu Sitemap Push
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@main
+
+      - uses: szenius/set-timezone@v1.0 # 设置执行环境的时区
+        with:
+          timezoneLinux: "Asia/Shanghai"
+
+      - name: Set Up Python
+        uses: actions/setup-python@main
+        with:
+          python-version: 3.9
+
+      - name: Install Requests
+        run: pip install requests
+
+      - name: Generate Txt
+        run: python .github/scripts/baidu-sitemap-push.py
+
+      - name: Baidu Push
+        run: curl -H 'Content-Type:text/plain' --data-binary @urls.txt "${{ secrets.BAIDU_TOKEN }}"
