@@ -1,0 +1,35 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
+
+name: Update SSL Certificate
+
+on:
+  schedule:
+    - cron: "0 17 * * 5" # 周六 1:00
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: szenius/set-timezone@v1.0 # 设置执行环境的时区
+        with:
+          timezoneLinux: "Asia/Shanghai"
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.10"
+      - name: Run update script
+        env:
+            ACCESS_KEY: ${{ secrets.ACCESS_KEY }}
+            SECRET_KEY: ${{ secrets.SECRET_KEY }}
+            OHTTPS_APIID: ${{ secrets.OHTTPS_APIID }}
+            OHTTPS_APIKEY: ${{ secrets.OHTTPS_APIKEY }}
+            OHTTPS_CERTIFICATEID: ${{ secrets.OHTTPS_CERTIFICATEID }}
+            ALI_PASSWORD: ${{ secrets.ALI_PASSWORD }}
+            ALI_IP: ${{ secrets.ALI_IP }}
+        run: |
+          sudo apt-get install sshpass -y
+          pip install requests paramiko
+          python .github/scripts/update-ssl-cert.py
