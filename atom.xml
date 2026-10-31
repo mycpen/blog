@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Mycpen</title>
+  <icon>https://blog.cpen.top/img/favicon.png</icon>
+  <subtitle>Personal Blog</subtitle>
+  <link href="https://blog.cpen.top/atom.xml" rel="self"/>
+  
+  <link href="https://blog.cpen.top/"/>
+  <updated>2023-06-01T05:00:00.000Z</updated>
+  <id>https://blog.cpen.top/</id>
+  
+  <author>
+    <name>Mycpen</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>13_Hexo-操作记录</title>
+    <link href="https://blog.cpen.top/posts/db7b8b04.html"/>
+    <id>https://blog.cpen.top/posts/db7b8b04.html</id>
+    <published>2023-06-01T04:00:00.000Z</published>
+    <updated>2023-06-01T05:00:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;01-Giscus-评论系统&quot;&gt;01. Giscus 评论系统&lt;a class=&quot;header-anchor&quot; href=&quot;#01-Giscus-评论系统&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;博客弃用 Twikoo，改用 Giscus 进行评论&lt;/p&gt;
+&lt;p&gt;参考&lt;/p&gt;</summary>
+      
+    
+    
+    
+    <category term="Hexo" scheme="https://blog.cpen.top/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.cpen.top/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>12_Hexo-GitHub Actions 发布博客静态资源至 NPM</title>
+    <link href="https://blog.cpen.top/posts/8d01af11.html"/>
+    <id>https://blog.cpen.top/posts/8d01af11.html</id>
+    <published>2023-05-05T04:00:00.000Z</published>
+    <updated>2023-05-05T05:00:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;前言&lt;a class=&quot;header-anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;将博客静态文件上传至 github，通过 github action 自动发包至 npm，使用 &lt;a href=&quot;https://npmmirror.co</summary>
+      
+    
+    
+    
+    <category term="Hexo" scheme="https://blog.cpen.top/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.cpen.top/tags/Hexo/"/>
+    
+    <category term="GitHub" scheme="https://blog.cpen.top/tags/GitHub/"/>
+    
+    <category term="NPM" scheme="https://blog.cpen.top/tags/NPM/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>06_转载-自我提升的8个好习惯</title>
+    <link href="https://blog.cpen.top/posts/85a8374a.html"/>
+    <id>https://blog.cpen.top/posts/85a8374a.html</id>
+    <published>2023-05-04T04:00:00.000Z</published>
+    <updated>2023-05-04T05:00:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;原文：&lt;a href=&quot;https://blog.zhuxu.xyz/archives/343/&quot;&gt;https://blog.zhuxu.xyz/archives/343/&lt;/a&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th colspan=&quot;2&quot;&gt;自我提升的</summary>
+      
+    
+    
+    
+    <category term="转载" scheme="https://blog.cpen.top/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="转载" scheme="https://blog.cpen.top/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+    <category term="习惯" scheme="https://blog.cpen.top/tags/%E4%B9%A0%E6%83%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>05_转载-延寿指南-反向面试-文档写作规范</title>
+    <link href="https://blog.cpen.top/posts/285c50ae.html"/>
+    <id>https://blog.cpen.top/posts/285c50ae.html</id>
+    <published>2023-05-03T04:00:00.000Z</published>
+    <updated>2023-05-03T05:00:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;程序员延寿指南&quot;&gt;程序员延寿指南&lt;a class=&quot;header-anchor&quot; href=&quot;#程序员延寿指南&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;原文：&lt;a href=&quot;https://github.com/geekan/HowToLiveLonger&quot;&gt;https:/</summary>
+      
+    
+    
+    
+    <category term="转载" scheme="https://blog.cpen.top/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="GitHub" scheme="https://blog.cpen.top/tags/GitHub/"/>
+    
+    <category term="转载" scheme="https://blog.cpen.top/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+    <category term="学习" scheme="https://blog.cpen.top/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="习惯" scheme="https://blog.cpen.top/tags/%E4%B9%A0%E6%83%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>04_转载-提问的智慧</title>
+    <link href="https://blog.cpen.top/posts/beb8baf2.html"/>
+    <id>https://blog.cpen.top/posts/beb8baf2.html</id>
+    <published>2023-05-02T04:00:00.000Z</published>
+    <updated>2023-05-02T05:00:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;具体版权见原文。原文：&lt;a href=&quot;https://github.com/tvvocold/How-To-Ask-Questions-The-Smart-Way&quot;&gt;https://github.com/tvvocold/How-To-Ask-Questions-The-</summary>
+      
+    
+    
+    
+    <category term="转载" scheme="https://blog.cpen.top/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="GitHub" scheme="https://blog.cpen.top/tags/GitHub/"/>
+    
+    <category term="转载" scheme="https://blog.cpen.top/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+    <category term="学习" scheme="https://blog.cpen.top/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>03_转载-中文文案排版指北</title>
+    <link href="https://blog.cpen.top/posts/3e42a4ef.html"/>
+    <id>https://blog.cpen.top/posts/3e42a4ef.html</id>
+    <published>2023-05-01T04:00:00.000Z</published>
+    <updated>2023-05-01T05:00:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;原文：&lt;a href=&quot;https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.zh-Hans.md#%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%8</summary>
+      
+    
+    
+    
+    <category term="转载" scheme="https://blog.cpen.top/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="GitHub" scheme="https://blog.cpen.top/tags/GitHub/"/>
+    
+    <category term="转载" scheme="https://blog.cpen.top/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+    <category term="学习" scheme="https://blog.cpen.top/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>11_Hexo-GitHub Actions 自动部署博客</title>
+    <link href="https://blog.cpen.top/posts/8b765f7a.html"/>
+    <id>https://blog.cpen.top/posts/8b765f7a.html</id>
+    <published>2023-04-04T04:00:00.000Z</published>
+    <updated>2023-10-11T05:00:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;简单记录，步骤潦草&lt;/p&gt;
+&lt;h2 id=&quot;示例&quot;&gt;示例&lt;a class=&quot;header-anchor&quot; href=&quot;#示例&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;1-gitignore&quot;&gt;1. .gitignore&lt;a class=&quot;header-anchor&quot; href</summary>
+      
+    
+    
+    
+    <category term="Hexo" scheme="https://blog.cpen.top/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.cpen.top/tags/Hexo/"/>
+    
+    <category term="GitHub" scheme="https://blog.cpen.top/tags/GitHub/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>10_Hexo-GitHub Actions 自动刷新多吉云 CDN 缓存</title>
+    <link href="https://blog.cpen.top/posts/6f7759e0.html"/>
+    <id>https://blog.cpen.top/posts/6f7759e0.html</id>
+    <published>2023-04-03T04:00:00.000Z</published>
+    <updated>2023-04-03T05:00:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;前言&lt;a class=&quot;header-anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;之前一直通过 &lt;a href=&quot;https://console.dogecloud.com/cdn/refresh&quot;&gt;多吉云控制台&lt;/a&gt; 手动刷新博客全</summary>
+      
+    
+    
+    
+    <category term="Hexo" scheme="https://blog.cpen.top/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.cpen.top/tags/Hexo/"/>
+    
+    <category term="GitHub" scheme="https://blog.cpen.top/tags/GitHub/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>08_Other-GitHub Actions 定时执行脚本，备份又拍云云存储</title>
+    <link href="https://blog.cpen.top/posts/acb8c062.html"/>
+    <id>https://blog.cpen.top/posts/acb8c062.html</id>
+    <published>2023-04-02T04:00:00.000Z</published>
+    <updated>2023-04-02T05:00:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;前言&lt;a class=&quot;header-anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;使用 GitHub Acitons，定时跑 Python FTP 脚本，达到 &lt;a href=&quot;https://help.upyun.com/knowle</summary>
+      
+    
+    
+    
+    <category term="Other" scheme="https://blog.cpen.top/categories/Other/"/>
+    
+    
+    <category term="GitHub" scheme="https://blog.cpen.top/tags/GitHub/"/>
+    
+    <category term="Other" scheme="https://blog.cpen.top/tags/Other/"/>
+    
+    <category term="Python" scheme="https://blog.cpen.top/tags/Python/"/>
+    
+    <category term="FTP" scheme="https://blog.cpen.top/tags/FTP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>07_Other-文章记录-sshpass</title>
+    <link href="https://blog.cpen.top/posts/cee83196.html"/>
+    <id>https://blog.cpen.top/posts/cee83196.html</id>
+    <published>2023-04-01T04:00:00.000Z</published>
+    <updated>2023-10-05T05:00:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;前言&lt;a class=&quot;header-anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;记录一些小知识点、工具、文章收藏&lt;/p&gt;
+&lt;h2 id=&quot;01-链接收藏&quot;&gt;01. 链接收藏&lt;a class=&quot;header-anchor&quot; href=&quot;</summary>
+      
+    
+    
+    
+    <category term="Other" scheme="https://blog.cpen.top/categories/Other/"/>
+    
+    
+    <category term="Git" scheme="https://blog.cpen.top/tags/Git/"/>
+    
+    <category term="Hexo" scheme="https://blog.cpen.top/tags/Hexo/"/>
+    
+    <category term="SSH" scheme="https://blog.cpen.top/tags/SSH/"/>
+    
+    <category term="Other" scheme="https://blog.cpen.top/tags/Other/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>03_Error-问题记录-winpty-.gitignore</title>
+    <link href="https://blog.cpen.top/posts/fe8dbc73.html"/>
+    <id>https://blog.cpen.top/posts/fe8dbc73.html</id>
+    <published>2023-03-01T04:00:00.000Z</published>
+    <updated>2023-09-05T05:00:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;前言&lt;a class=&quot;header-anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;记录一些遇到的问题&lt;/p&gt;
+&lt;h2 id=&quot;01-Python-中文乱码-Git-Bash&quot;&gt;01. Python 中文乱码 (Git Bash)&lt;a c</summary>
+      
+    
+    
+    
+    <category term="Error" scheme="https://blog.cpen.top/categories/Error/"/>
+    
+    
+    <category term="Error" scheme="https://blog.cpen.top/tags/Error/"/>
+    
+    <category term="Git" scheme="https://blog.cpen.top/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>02_转载-Replit 部署 Memos &amp; Butterfly 基于 Memos 实现清单功能</title>
+    <link href="https://blog.cpen.top/posts/10d5063.html"/>
+    <id>https://blog.cpen.top/posts/10d5063.html</id>
+    <published>2023-02-01T04:00:00.000Z</published>
+    <updated>2023-03-28T05:00:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;2023-06-01-更新&quot;&gt;2023/06/01 更新&lt;a class=&quot;header-anchor&quot; href=&quot;#2023-06-01-更新&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;最近 Replit 的 Repl 出现回档现象，导致最新变更操作丢失，正如 &lt;a hre</summary>
+      
+    
+    
+    
+    <category term="转载" scheme="https://blog.cpen.top/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="Replit" scheme="https://blog.cpen.top/tags/Replit/"/>
+    
+    <category term="转载" scheme="https://blog.cpen.top/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+    <category term="Memos" scheme="https://blog.cpen.top/tags/Memos/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>09_Hexo-Replit 搭建 Uptime Kuma 监控服务</title>
+    <link href="https://blog.cpen.top/posts/27addd89.html"/>
+    <id>https://blog.cpen.top/posts/27addd89.html</id>
+    <published>2023-01-01T04:00:00.000Z</published>
+    <updated>2023-10-01T05:00:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;2023-10-01-更新&quot;&gt;2023/10/01 更新&lt;a class=&quot;header-anchor&quot; href=&quot;#2023-10-01-更新&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Replit 上的 Repl 报错，重新搭建 Uptime Kuma&lt;/p&gt;
+&lt;p&gt;参考</summary>
+      
+    
+    
+    
+    <category term="Hexo" scheme="https://blog.cpen.top/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.cpen.top/tags/Hexo/"/>
+    
+    <category term="Replit" scheme="https://blog.cpen.top/tags/Replit/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>08_Hexo-博客引用 B站鸿蒙字体</title>
+    <link href="https://blog.cpen.top/posts/df249111.html"/>
+    <id>https://blog.cpen.top/posts/df249111.html</id>
+    <published>2022-12-06T04:00:00.000Z</published>
+    <updated>2023-01-03T05:00:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;2022-12-31-更新&quot;&gt;2022/12/31 更新&lt;a class=&quot;header-anchor&quot; href=&quot;#2022-12-31-更新&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;在 &lt;a href=&quot;https://butterfly.zhheo.com/docs/</summary>
+      
+    
+    
+    
+    <category term="Hexo" scheme="https://blog.cpen.top/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.cpen.top/tags/Hexo/"/>
+    
+    <category term="字体" scheme="https://blog.cpen.top/tags/%E5%AD%97%E4%BD%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>07_Hexo-插件整理</title>
+    <link href="https://blog.cpen.top/posts/4c16ee73.html"/>
+    <id>https://blog.cpen.top/posts/4c16ee73.html</id>
+    <published>2022-12-05T04:00:00.000Z</published>
+    <updated>2022-12-05T05:00:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;strong&gt;目录3 为转载内容&lt;/strong&gt;，原文：&lt;a href=&quot;https://blog.justlovesmile.top/posts/86111745.html&quot;&gt;Justlovesmile_Hexo博客 | 插件推荐&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;1-</summary>
+      
+    
+    
+    
+    <category term="Hexo" scheme="https://blog.cpen.top/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.cpen.top/tags/Hexo/"/>
+    
+    <category term="插件" scheme="https://blog.cpen.top/tags/%E6%8F%92%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>06_Other-Windows 图片批量压缩工具 ultra-tinypng</title>
+    <link href="https://blog.cpen.top/posts/b7f58a40.html"/>
+    <id>https://blog.cpen.top/posts/b7f58a40.html</id>
+    <published>2022-12-04T04:00:00.000Z</published>
+    <updated>2023-07-11T05:00:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;2023-07-11-作者更新&quot;&gt;2023-07-11 作者更新&lt;a class=&quot;header-anchor&quot; href=&quot;#2023-07-11-作者更新&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;fix：修复了tinypng官方修改了校验策略导致</summary>
+      
+    
+    
+    
+    <category term="Other" scheme="https://blog.cpen.top/categories/Other/"/>
+    
+    
+    <category term="Other" scheme="https://blog.cpen.top/tags/Other/"/>
+    
+    <category term="TinyPNG" scheme="https://blog.cpen.top/tags/TinyPNG/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>01_转载-图床搭建 Backblaze B2 + Cloudflare CDN</title>
+    <link href="https://blog.cpen.top/posts/16589f92.html"/>
+    <id>https://blog.cpen.top/posts/16589f92.html</id>
+    <published>2022-12-03T04:00:00.000Z</published>
+    <updated>2023-06-16T05:00:00.000Z</updated>
+    
+    
+    <summary type="html">文章转载</summary>
+    
+    
+    
+    <category term="转载" scheme="https://blog.cpen.top/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="转载" scheme="https://blog.cpen.top/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+    <category term="图床" scheme="https://blog.cpen.top/tags/%E5%9B%BE%E5%BA%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>05_Other-使用 Python open 函数批量替换文件内容</title>
+    <link href="https://blog.cpen.top/posts/3ffec809.html"/>
+    <id>https://blog.cpen.top/posts/3ffec809.html</id>
+    <published>2022-12-02T04:00:00.000Z</published>
+    <updated>2023-02-06T05:00:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;2023-02-06-更新&quot;&gt;2023/02/06 更新&lt;a class=&quot;header-anchor&quot; href=&quot;#2023-02-06-更新&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;VSCode 集成了 &lt;code&gt;某路径下的文件批量替换指定内容&lt;/code&gt; 的功能，</summary>
+      
+    
+    
+    
+    <category term="Other" scheme="https://blog.cpen.top/categories/Other/"/>
+    
+    
+    <category term="Other" scheme="https://blog.cpen.top/tags/Other/"/>
+    
+    <category term="Python" scheme="https://blog.cpen.top/tags/Python/"/>
+    
+    <category term="Open" scheme="https://blog.cpen.top/tags/Open/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>04_Other-使用 Python ftplib 模块同步又拍云云存储数据至本地</title>
+    <link href="https://blog.cpen.top/posts/4f5c6419.html"/>
+    <id>https://blog.cpen.top/posts/4f5c6419.html</id>
+    <published>2022-12-01T04:00:00.000Z</published>
+    <updated>2022-12-01T05:00:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;1. 前言&lt;a class=&quot;header-anchor&quot; href=&quot;#1-前言&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;在 &lt;a href=&quot;https://www.jsdelivr.com/&quot;&gt;jsd&lt;/a&gt; 失效之后，博主将图床资源从 github 迁移至</summary>
+      
+    
+    
+    
+    <category term="Other" scheme="https://blog.cpen.top/categories/Other/"/>
+    
+    
+    <category term="Other" scheme="https://blog.cpen.top/tags/Other/"/>
+    
+    <category term="Python" scheme="https://blog.cpen.top/tags/Python/"/>
+    
+    <category term="FTP" scheme="https://blog.cpen.top/tags/FTP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>03_Other-PC端环境记录</title>
+    <link href="https://blog.cpen.top/posts/583c5c34.html"/>
+    <id>https://blog.cpen.top/posts/583c5c34.html</id>
+    <published>2022-11-01T04:00:00.000Z</published>
+    <updated>2023-03-11T05:00:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;前言&lt;a class=&quot;header-anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;记录个人电脑环境&lt;/p&gt;
+&lt;p&gt;更新时间：2023.03.10&lt;/p&gt;
+&lt;h2 id=&quot;Windows&quot;&gt;Windows&lt;a class=&quot;header-</summary>
+      
+    
+    
+    
+    <category term="Other" scheme="https://blog.cpen.top/categories/Other/"/>
+    
+    
+    <category term="Other" scheme="https://blog.cpen.top/tags/Other/"/>
+    
+    <category term="工具" scheme="https://blog.cpen.top/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+</feed>

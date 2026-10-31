@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Allow: /posts/
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/
+
+Sitemap: https://blog.cpen.top/sitemap.xml
+Sitemap: https://blog.cpen.top/baidusitemap.xml
